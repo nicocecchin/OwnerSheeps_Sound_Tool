@@ -1,0 +1,16 @@
+[package]
+name = "OwnerSheeps_Sound_Tool"
+version = "0.1.6"
+edition = "2021"
+authors = ["Bazzanella Bauer Gabriele, Cecchin Nicolò, Facchinelli Davide, Pedrolli Daniele"]
+publish = ["kellnr"]
+
+
+[dependencies]
+rodio = "0.17.3"
+robotics_lib = {version = "0.1.19", registry = "kellnr"}
+lazy_static = "1.4"
+
+
+[lib]
+crate-type = ["lib"]
